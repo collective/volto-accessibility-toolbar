@@ -103,39 +103,19 @@ develop some.
 
 Also add `volto-accessibility-toolbar` to your `package.json` file:
 
-Add `volto-accessibility-toolbar` to your `volto.config.js`:
-
-```javascript
-const addons = ['volto-accessibility-toolbar'];
-```
-
-If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
-
-```javascript
-const theme = 'volto-accessibility-toolbar';
-```
-
-<!-- ### Volto 17 and earlier
-
-Create a new `Volto` project (you can skip this step if you already have one):
-
-```
-npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-accessibility-toolbar
-cd my-volto-project
-```
-
-Add `volto-accessibility-toolbar` to your `package.json` file:
-
 ```json
 "addons": [
-    "volto-accessibility-toolbar"
-],
+    "volto-accessibility-toolbar": "*"
+]
+```
 
+```json
 "dependencies": {
     "volto-accessibility-toolbar": "*"
 }
-``` -->
+```
+
+---
 
 Download and install the new add-on by running:
 
