@@ -52,6 +52,8 @@ This product support the following languages:
 
 - Spanish
 
+- Brazilian Portuguese
+
 ## Compatibility
 
 - Tested with `Node.js` 22.16.0 and `Volto` 18.

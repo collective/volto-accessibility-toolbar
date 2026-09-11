@@ -3,45 +3,47 @@ msgstr ""
 "Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06T16:01:32.969Z\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-11 16:03+0200\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language: pt_BR\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
+"Preferred-Encodings: utf-8\n"
 "Language-Code: pt_BR\n"
 "Language-Name: Português do Brasil\n"
-"Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+"X-Is-Fallback-For: pt pt-pt pt-br\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Default: "Accessibility"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "accessibility_link"
-msgstr ""
+msgstr "Acessibilidade"
 
 #. Default: "Accessibility Link"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "accessibility_link_title"
-msgstr ""
+msgstr "Link de acessibilidade"
 
 #. Default: "High Contrast"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "contrast_link"
-msgstr ""
+msgstr "Alto contraste"
 
 #. Default: "Large Font"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "large_font_button"
-msgstr ""
+msgstr "Fonte grande"
 
 #. Default: "Medium Font"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "medium_font_button"
-msgstr ""
+msgstr "Fonte média"
 
 #. Default: "Small Font"
 #: components/AccessibilityToolbar/AccessibilityToolbar
 msgid "small_font_button"
-msgstr ""
+msgstr "Fonte pequena"
