@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-11T13:32:15.514Z\n"
+"PO-Revision-Date: 2026-09-11 19:28+0100\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language: gl\n"
+"Language-Team: Galego <https://hosted.weblate.org/projects/plone/plone/gl/>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Language-Code: gl\n"
+"Language-Name: Galego\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: volto\n"
+"X-Generator: Poedit 3.8\n"
+
+#. Default: "Accessibility"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "accessibility_link"
+msgstr "Accesibilidade"
+
+#. Default: "Accessibility Link"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "accessibility_link_title"
+msgstr "Vínculo de accesibilidade"
+
+#. Default: "High Contrast"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "contrast_link"
+msgstr "Alto contraste"
+
+#. Default: "Large Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "large_font_button"
+msgstr "Font grande"
+
+#. Default: "Medium Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "medium_font_button"
+msgstr "Font media"
+
+#. Default: "Small Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "small_font_button"
+msgstr "Font pequena"

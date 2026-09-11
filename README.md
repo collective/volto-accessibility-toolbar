@@ -54,6 +54,8 @@ This product support the following languages:
 
 - English
 
+- Galician
+
 - Spanish
 
 - Brazilian Portuguese
