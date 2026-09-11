@@ -84,13 +84,13 @@ Add `volto-accessibility-toolbar` to your `package.json` file:
 
 ```json
 "dependencies": {
-    "volto-accessibility-toolbar": "*"
+    "volto-accessibility-toolbar": "workspace:*",
 }
 ```
 
-#### Install from Github
+#### Install from GitHub
 
-If you trying to install from Github you need edit the `mrs.developer.json` file:
+If you trying to install from `GitHub` you need edit the `mrs.developer.json` file:
 
 ```json
 {
@@ -128,13 +128,13 @@ Also add `volto-accessibility-toolbar` to your `package.json` file:
 Download and install the new add-on by running:
 
 ```shell
-yarn install
+make install
 ```
 
 Start `Volto` with:
 
 ```shell
-yarn start
+make start
 ```
 
 ## Settings it
@@ -304,4 +304,4 @@ This product was developed by [Leonardo J. Caballero G.](https://github.com/maca
 
 ## License
 
-The project is licensed under the MIT license.
+The project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
