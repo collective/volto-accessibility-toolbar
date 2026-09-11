@@ -10,6 +10,12 @@ A new add-on for Volto to support the Accessibility Toolbar
 
 <!-- List your awesome features here -->
 
+- Accessibility link.
+
+- Smaller/Increase text size.
+
+- High contrast.
+
 ## Installation
 
 To install your project, you must choose the method appropriate to your version of Volto.

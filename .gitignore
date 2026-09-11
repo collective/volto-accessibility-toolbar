@@ -1,6 +1,7 @@
 .*project
 .settings/
 .vscode
+*.code-workspace
 *~
 acceptance/cypress/videos/
 acceptance/node_modules

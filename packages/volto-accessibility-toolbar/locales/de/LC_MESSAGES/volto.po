@@ -10,3 +10,33 @@ msgstr ""
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. Default: "Accessibility"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "accessibility_link"
+msgstr ""
+
+#. Default: "Accessibility Link"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "accessibility_link_title"
+msgstr ""
+
+#. Default: "High Contrast"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "contrast_link"
+msgstr ""
+
+#. Default: "Large Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "large_font_button"
+msgstr ""
+
+#. Default: "Medium Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "medium_font_button"
+msgstr ""
+
+#. Default: "Small Font"
+#: components/AccessibilityToolbar/AccessibilityToolbar
+msgid "small_font_button"
+msgstr ""
