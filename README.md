@@ -282,7 +282,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/macagua/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
 
 ### Acknowledgements 🙏
 
