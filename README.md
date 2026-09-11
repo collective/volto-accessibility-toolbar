@@ -46,6 +46,8 @@ Demo PNG
 
 This product support the following languages:
 
+- Germany
+
 - English
 
 - Spanish
