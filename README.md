@@ -26,7 +26,7 @@ It provides a simple way to access to accessibility features such as:
 
 A `Volto` style button that looks like this:
 
-Demo PNG
+- TODO: Demo PNG
 
 ---
 
@@ -34,7 +34,7 @@ Demo PNG
 
 A `Volto` style button that looks like this:
 
-Demo PNG
+- TODO: Demo PNG
 
 ---
 
@@ -42,7 +42,7 @@ Demo PNG
 
 A `Volto` style button that looks like this:
 
-Demo PNG
+- TODO: Demo PNG
 
 ## Translations
 
@@ -119,7 +119,7 @@ Also add `volto-accessibility-toolbar` to your `package.json` file:
 
 ```json
 "dependencies": {
-    "volto-accessibility-toolbar": "*"
+    "volto-accessibility-toolbar": "workspace:*",
 }
 ```
 
@@ -145,7 +145,7 @@ For use this add-on, you need to configure the following:
 
 ## Test installation
 
-Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
+Visit http://localhost:3000/ in a browser, and check the _Accessibility_ features for the users.
 
 
 ## Development
