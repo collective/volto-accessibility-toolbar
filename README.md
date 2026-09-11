@@ -1,12 +1,14 @@
 # Accessibility Toolbar (volto-accessibility-toolbar)
 
-A new add-on for Volto to support the Accessibility Toolbar
-
 [![npm](https://img.shields.io/npm/v/volto-accessibility-toolbar)](https://www.npmjs.com/package/volto-accessibility-toolbar)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://macagua.github.io/volto-accessibility-toolbar/)
 [![CI](https://github.com/macagua/volto-accessibility-toolbar/actions/workflows/main.yml/badge.svg)](https://github.com/macagua/volto-accessibility-toolbar/actions/workflows/main.yml)
 
+A new add-on for `Volto` to support the Accessibility features of web browsers.
+
 ## Features
+
+It provides a simple way to access to accessibility features such as:
 
 <!-- List your awesome features here -->
 
@@ -16,20 +18,78 @@ A new add-on for Volto to support the Accessibility Toolbar
 
 - High contrast.
 
-## Installation
+## Screenshots
 
-To install your project, you must choose the method appropriate to your version of Volto.
+**Accessibility link**
+
+A `Volto` style button that looks like this:
+
+Demo PNG
+
+---
+
+**Smaller/Increase text size**
+
+A `Volto` style button that looks like this:
+
+Demo PNG
+
+---
+
+**High contrast**
+
+A `Volto` style button that looks like this:
+
+Demo PNG
+
+## Compatibility
+
+- Tested with `Node.js` 22.16.0 and `Volto` 18.
+
+## Install it
+
+To install in your project, the `volto-accessibility-toolbar` add-on, you must choose the method appropriate
+to your version of `Volto`.
 
 
 ### Volto 18 and later
 
-Add `volto-accessibility-toolbar` to your `package.json`:
+Add `volto-accessibility-toolbar` to your `package.json` file:
+
+```json
+"addons": [
+    "volto-accessibility-toolbar": "*"
+]
+```
 
 ```json
 "dependencies": {
     "volto-accessibility-toolbar": "*"
 }
 ```
+
+#### Install from Github
+
+If you trying to install from Github you need edit the `mrs.developer.json` file:
+
+```json
+{
+  "volto-accessibility-toolbar": {
+    "develop": true,
+    "output": "./packages/",
+    "package": "volto-accessibility-toolbar",
+    "url": "git@github.com:macagua/volto-accessibility-toolbar.git",
+    "https": "https://github.com/macagua/volto-accessibility-toolbar.git",
+    "branch": "main"
+  }
+}
+```
+
+The `mrs.developer.json` file is using by an `Node.js` utility called `mrs.developer` that makes
+it easy to work with `npm` projects containing lots of packages, of which you only want to
+develop some.
+
+Also add `volto-accessibility-toolbar` to your `package.json` file:
 
 Add `volto-accessibility-toolbar` to your `volto.config.js`:
 
@@ -43,9 +103,9 @@ If this package provides a Volto theme, and you want to activate it, then add th
 const theme = 'volto-accessibility-toolbar';
 ```
 
-### Volto 17 and earlier
+<!-- ### Volto 17 and earlier
 
-Create a new Volto project (you can skip this step if you already have one):
+Create a new `Volto` project (you can skip this step if you already have one):
 
 ```
 npm install -g yo @plone/generator-volto
@@ -53,9 +113,9 @@ yo @plone/volto my-volto-project --addon volto-accessibility-toolbar
 cd my-volto-project
 ```
 
-Add `volto-accessibility-toolbar` to your package.json:
+Add `volto-accessibility-toolbar` to your `package.json` file:
 
-```JSON
+```json
 "addons": [
     "volto-accessibility-toolbar"
 ],
@@ -63,19 +123,25 @@ Add `volto-accessibility-toolbar` to your package.json:
 "dependencies": {
     "volto-accessibility-toolbar": "*"
 }
-```
+``` -->
 
 Download and install the new add-on by running:
 
-```
+```shell
 yarn install
 ```
 
-Start volto with:
+Start `Volto` with:
 
-```
+```shell
 yarn start
 ```
+
+## Settings it
+
+For use this add-on, you need to configure the following:
+
+- TODO: Write this section.
 
 ## Test installation
 
@@ -84,8 +150,8 @@ Visit http://localhost:3000/ in a browser, login, and check the awesome new feat
 
 ## Development
 
-The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Volto core improvements.
-For this reason, it only works with pnpm and Volto 18 (currently in alpha).
+The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other `Volto` core improvements.
+For this reason, it only works with pnpm and `Volto` 18 (currently in alpha).
 
 
 ### Prerequisites ✅
@@ -217,10 +283,25 @@ In the third session, start the Cypress interactive test runner.
 make acceptance-test
 ```
 
+## Credits
+
+Developed with the support of:
+
+
+- [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
+
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
+
+### Acknowledgements 🙏
+
+Generated using [Cookieplone (1.1.0)](https://github.com/plone/cookieplone) and [cookieplone-templates (8e49881)](https://github.com/plone/cookieplone-templates/commit/8e498811980e38b7db5d5cb0f5645256feaa8799) on 2026-09-08 09:55:51.534423. A special thanks to all contributors and supporters!
+
+## Authors
+
+This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
+
+<img width="100" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
+
 ## License
 
 The project is licensed under the MIT license.
-
-## Credits and acknowledgements 🙏
-
-Generated using [Cookieplone (1.1.0)](https://github.com/plone/cookieplone) and [cookieplone-templates (8e49881)](https://github.com/plone/cookieplone-templates/commit/8e498811980e38b7db5d5cb0f5645256feaa8799) on 2026-09-08 09:55:51.534423. A special thanks to all contributors and supporters!
