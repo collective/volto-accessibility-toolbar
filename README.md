@@ -48,6 +48,8 @@ Demo PNG
 
 This product support the following languages:
 
+- Basque
+
 - Catalan
 
 - Germany
