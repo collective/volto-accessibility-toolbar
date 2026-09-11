@@ -42,6 +42,14 @@ A `Volto` style button that looks like this:
 
 Demo PNG
 
+## Translations
+
+This product support the following languages:
+
+- English
+
+- Spanish
+
 ## Compatibility
 
 - Tested with `Node.js` 22.16.0 and `Volto` 18.
