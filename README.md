@@ -2,9 +2,11 @@
 
 [![npm](https://img.shields.io/npm/v/volto-accessibility-toolbar)](https://www.npmjs.com/package/volto-accessibility-toolbar)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://macagua.github.io/volto-accessibility-toolbar/)
-[![CI](https://github.com/macagua/volto-accessibility-toolbar/actions/workflows/main.yml/badge.svg)](https://github.com/macagua/volto-accessibility-toolbar/actions/workflows/main.yml)
+[![CI](https://github.com/collective/volto-accessibility-toolbar/actions/workflows/main.yml/badge.svg)](https://github.com/collective/volto-accessibility-toolbar/actions/workflows/main.yml)
 
-A new add-on for `Volto` to support the Accessibility features of web browsers.
+A new add-on for `Volto` to support the Accessibility features of web browsers. The aim is to provide features commonly used by browser users.
+
+This add-on is inspired by the [BarraAcessibilidade](https://github.com/search?q=repo%3Aplonegovbr%2Fportalbrasil-intranet+BarraAcessibilidade&type=code) component of the [PortalBrasil: Intranet (portalbrasil-intranet)](https://github.com/plonegovbr/portalbrasil-intranet/tree/main/frontend/) used as an accessibility bar for website visitors.
 
 ## Features
 
@@ -90,8 +92,8 @@ If you trying to install from Github you need edit the `mrs.developer.json` file
     "develop": true,
     "output": "./packages/",
     "package": "volto-accessibility-toolbar",
-    "url": "git@github.com:macagua/volto-accessibility-toolbar.git",
-    "https": "https://github.com/macagua/volto-accessibility-toolbar.git",
+    "url": "git@github.com:collective/volto-accessibility-toolbar.git",
+    "https": "https://github.com/collective/volto-accessibility-toolbar.git",
     "branch": "main"
   }
 }
@@ -160,7 +162,7 @@ For this reason, it only works with pnpm and `Volto` 18 (currently in alpha).
 1.  Clone this repository, then change your working directory.
 
     ```shell
-    git clone git@github.com:macagua/volto-accessibility-toolbar.git
+    git clone git@github.com:collective/volto-accessibility-toolbar.git
     cd volto-accessibility-toolbar
     ```
 
@@ -282,7 +284,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/macagua/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
 
 ### Acknowledgements 🙏
 
