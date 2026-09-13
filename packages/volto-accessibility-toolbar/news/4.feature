@@ -1,0 +1,1 @@
+Add the Storybook for the 'AccessibilityToolbar' component for this add-on.

@@ -283,6 +283,14 @@ In the third session, start the Cypress interactive test runner.
 make acceptance-test
 ```
 
+### Run Storybook server
+
+Ro run Start Storybook server on port 6006
+
+```shell
+make storybook-start
+```
+
 ## Credits
 
 Developed with the support of:
