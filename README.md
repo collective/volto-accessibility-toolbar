@@ -71,7 +71,6 @@ This product support the following languages:
 To install in your project, the `volto-accessibility-toolbar` add-on, you must choose the method appropriate
 to your version of `Volto`.
 
-
 ### Volto 18 and later
 
 Add `volto-accessibility-toolbar` to your `package.json` file:
@@ -165,37 +164,34 @@ export default function install(config) {
 
 Visit http://localhost:3000/ in a browser, and check the _Accessibility_ features for the users.
 
-
 ## Development
 
 The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other `Volto` core improvements.
 For this reason, it only works with pnpm and `Volto` 18 (currently in alpha).
 
-
 ### Prerequisites ✅
 
--   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
--   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
--   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
--   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
--   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+- An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+- [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
+- [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
+- [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
+- [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
+- [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
 
 ### Installation 🔧
 
-1.  Clone this repository, then change your working directory.
+1. Clone this repository, then change your working directory.
 
     ```shell
     git clone git@github.com:collective/volto-accessibility-toolbar.git
     cd volto-accessibility-toolbar
     ```
 
-2.  Install this code base.
+2. Install this code base.
 
     ```shell
     make install
     ```
-
 
 ### Make convenience commands
 
@@ -312,7 +308,6 @@ make storybook-start
 ## Credits
 
 Developed with the support of:
-
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
