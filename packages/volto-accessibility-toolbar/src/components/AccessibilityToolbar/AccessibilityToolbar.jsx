@@ -48,12 +48,13 @@ const ContrastIcons = {
   d: disabledContrastIcon,
 };
 
-const LinkText = ({ enabled }) => {
+// Accessibility Link Text Component
+const LinkText = ({ enabled, href, ...props }) => {
   const intl = useIntl();
   return (
     <Container className={'option link text'}>
       {enabled ? (
-        <UniversalLink href={'/accessibility'}>
+        <UniversalLink href={href} {...props}>
           <Icon
             name={accessibilityIcon}
             size={'16px'}
@@ -164,7 +165,9 @@ const AccessibilityToolbar = () => {
         className={`a18n-contrast-${accessibility.contrast} a18n-font-${accessibility.font}`}
       />
       <Container layout className={'toolbar'}>
-        {settings.enable_link && <LinkText enabled={settings.enable_link} />}
+        {settings.enable_link && (
+          <LinkText enabled={settings.enable_link} href={settings.link_url} />
+        )}
         {settings.enable_contrast && (
           <Contrast
             current={accessibility.contrast}

@@ -22,7 +22,7 @@ It provides a simple way to access to accessibility features such as:
 
 ## Screenshots
 
-**Accessibility link**
+### Accessibility link
 
 A `Volto` style button that looks like this:
 
@@ -30,7 +30,7 @@ A `Volto` style button that looks like this:
 
 ---
 
-**Smaller/Increase text size**
+### Smaller/Increase text size
 
 A `Volto` style button that looks like this:
 
@@ -38,7 +38,7 @@ A `Volto` style button that looks like this:
 
 ---
 
-**High contrast**
+### High contrast
 
 A `Volto` style button that looks like this:
 
@@ -139,9 +139,27 @@ make start
 
 ## Settings it
 
-For use this add-on, you need to configure the following:
+For use this add-on, you need to configure the following in the `settings.js` file:
 
-- TODO: Write this section.
+- `enable_link`: Enable or disable the accessibility toolbar features. Default: `false`.
+
+- `link_url`: URL of the accessibility page. Default: `/accessibility`.
+
+- `enable_font`: Enable or disable the font size feature. Default: `true`.
+
+- `enable_contrast`: Enable or disable the contrast feature. Default: `true`.
+
+Example:
+
+```javascript
+export default function install(config) {
+  config.settings.enable_link = false;
+  config.settings.link_url = '/accessibility';
+  config.settings.enable_font = true;
+  config.settings.enable_contrast = true;
+  return config;
+}
+```
 
 ## Test installation
 
