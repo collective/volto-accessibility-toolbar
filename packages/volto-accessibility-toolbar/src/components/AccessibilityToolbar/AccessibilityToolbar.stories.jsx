@@ -9,12 +9,12 @@ export default {
     contrast: {
       control: { type: 'select' },
       options: ['d', 'h'],
-      description: 'Modo de contraste (d: por defecto, h: alto contraste)',
+      description: 'Contrast mode (d: default, h: high contrast)',
     },
     font: {
       control: { type: 'select' },
       options: ['s', 'm', 'l'],
-      description: 'Tamaño de fuente (s: pequeño, m: medio, l: grande)',
+      description: 'Font size (s: small, m: medium, l: large)',
     },
   },
 };
