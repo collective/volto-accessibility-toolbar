@@ -8,7 +8,11 @@ const initialState = {
 export const accessibility = (state = initialState, action = {}) => {
   switch (action.type) {
     case SET_ACCESSIBILITY:
-      return action;
+      return {
+        ...state,
+        ...(action.contrast !== undefined && { contrast: action.contrast }),
+        ...(action.font !== undefined && { font: action.font }),
+      };
     default:
       return state;
   }

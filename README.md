@@ -14,35 +14,47 @@ It provides a simple way to access to accessibility features such as:
 
 <!-- List your awesome features here -->
 
-- Accessibility link.
+- `LinkText` component, Accessibility link, go to the accessibility page.
 
-- Smaller/Increase text size.
+- `Fonts` component, use for Smaller/Increase text size via buttons.
 
-- High contrast.
+- `Contrast` component, High contrast via a button.
+
+- `AccessibilityToolbar` component, Main component that contains the other components.
 
 ## Screenshots
 
-### Accessibility link
+### Accessibility link component
 
-A `Volto` style button that looks like this:
+This `Volto` component looks like this:
 
-- TODO: Demo PNG
-
----
-
-### Smaller/Increase text size
-
-A `Volto` style button that looks like this:
-
-- TODO: Demo PNG
+![Accessibility link](https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/accessibility_link.png)
 
 ---
 
-### High contrast
+### Smaller/Increase text size component
 
-A `Volto` style button that looks like this:
+This `Volto` component looks like this:
 
-- TODO: Demo PNG
+![Smaller/Increase text size](https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/smaller_increase_text_size.png)
+
+---
+
+### High contrast component
+
+This `Volto` component looks like this:
+
+![High contrast](https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/high_contrast.png)
+
+---
+
+### Accessibility Toolbar component
+
+This `Volto` component looks like this:
+
+![Accessibility Toolbar](https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/accessibility_toolbar.png)
+
+---
 
 ## Translations
 
