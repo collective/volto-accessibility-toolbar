@@ -3,6 +3,9 @@ import React from 'react';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 import enMessages from '@root/../locales/en.json';
+import '../packages/volto-accessibility-toolbar/src/theme/_main.scss';
+
+
 
 import '@root/theme';
 
