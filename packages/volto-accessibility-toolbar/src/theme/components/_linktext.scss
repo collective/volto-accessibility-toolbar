@@ -1,0 +1,22 @@
+@use "../_variables.scss" as theme;
+
+// LinkText component
+.q.container.toolbar-wrapper .toolbar {
+  .option.link {
+    min-width: 160px;
+  }
+
+  .link.text {
+    .label {
+      padding-left: theme.$spacing-xsmall;
+      color: var(--a18n-color-text) !important;
+      font-size: var(--a18n-font-size);
+      font-weight: var(--a18n-font-weight);
+      line-height: var(--a18n-line-height);
+    }
+
+    svg.icon {
+      fill: var(--a18n-color-icon) !important;
+    }
+  }
+}
