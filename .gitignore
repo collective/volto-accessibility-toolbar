@@ -6,6 +6,7 @@
 acceptance/cypress/videos/
 acceptance/node_modules
 .storybook-build
+debug-storybook.log
 build
 /core
 node_modules
