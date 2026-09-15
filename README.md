@@ -323,7 +323,9 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
+  <!-- markdownlint-disable MD033 -->
   <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/volto-accessibility-toolbar/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
+  <!-- markdownlint-enable MD033 -->
 
 ### Acknowledgements 🙏
 
@@ -333,7 +335,9 @@ Generated using [Cookieplone (1.1.0)](https://github.com/plone/cookieplone) and 
 
 This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
 
+<!-- markdownlint-disable MD033 -->
 <img width="100" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
+<!-- markdownlint-enable MD033 -->
 
 ## License
 
