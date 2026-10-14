@@ -18,7 +18,7 @@ It provides a simple way to access to accessibility features such as:
 
 - `Fonts` component, use for Smaller/Increase text size via buttons.
 
-- `Contrast` component, High contrast via a button.
+- `HighContrast` component, High contrast via a button.
 
 - `AccessibilityToolbar` component, Main component that contains the other components.
 
@@ -158,7 +158,7 @@ For use this add-on, you need to configure the following in the `settings.js` fi
 
 - `enable_font`: Enable or disable the font size feature. Default: `true`.
 
-- `enable_contrast`: Enable or disable the contrast feature. Default: `true`.
+- `enable_high_contrast`: Enable or disable the contrast feature. Default: `true`.
 
 Example:
 
@@ -167,7 +167,7 @@ export default function install(config) {
   config.settings.enable_link = false;
   config.settings.link_url = '/accessibility';
   config.settings.enable_font = true;
-  config.settings.enable_contrast = true;
+  config.settings.enable_high_contrast = true;
   return config;
 }
 ```

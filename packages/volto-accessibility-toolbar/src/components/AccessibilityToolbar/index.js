@@ -4,9 +4,9 @@
  */
 
 import AccessibilityToolbar from './AccessibilityToolbar';
-import { Contrast } from './Contrast';
+import { HighContrast } from './HighContrast';
 import { Fonts } from './Fonts';
 import { LinkText } from './LinkText';
 
-export { AccessibilityToolbar, Contrast, Fonts, LinkText };
+export { AccessibilityToolbar, HighContrast, Fonts, LinkText };
 export default AccessibilityToolbar;

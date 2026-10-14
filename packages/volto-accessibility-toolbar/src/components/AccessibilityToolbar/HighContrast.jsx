@@ -1,6 +1,6 @@
 /**
- * Contrast component.
- * @module components/AccessibilityToolbar/Contrast
+ * HighContrast component.
+ * @module components/AccessibilityToolbar/HighContrast
  */
 
 import React from 'react';
@@ -9,35 +9,37 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Container } from '@plone/components';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import BodyClass from '@plone/volto/helpers/BodyClass/BodyClass';
-import { setContrast } from '../../actions/Accessibility/Accessibility';
-import activeContrastIcon from '../../icons/contrast-a.svg';
-import disabledContrastIcon from '../../icons/contrast-d.svg';
+import { setHighContrast } from '../../actions/Accessibility/Accessibility';
+import activeHighContrastIcon from '../../icons/high_contrast_a.svg';
+import disabledHighContrastIcon from '../../icons/high_contrast_d.svg';
 
 const messages = defineMessages({
-  contrastLink: {
-    id: 'contrast_link',
+  highContrastButton: {
+    id: 'high_contrast_button',
     defaultMessage: 'High Contrast',
   },
 });
 
-// Contrast icons mapping
-const ContrastIcons = {
-  h: activeContrastIcon,
-  d: disabledContrastIcon,
+// HighContrast icons mapping
+const HighContrastIcons = {
+  h: activeHighContrastIcon,
+  d: disabledHighContrastIcon,
 };
 
-// Contrast component
-const Contrast = ({ current, onClick, applyBodyClass = true }) => {
+// HighContrast component
+const HighContrast = ({ current, onClick, applyBodyClass = true }) => {
   const intl = useIntl();
   const dispatch = useDispatch();
 
-  const reduxContrast = useSelector(
+  const reduxHighContrast = useSelector(
     (state) => state.accessibility?.contrast || 'd',
   );
-  const activeContrast = current !== undefined ? current : reduxContrast;
+  const activeHighContrast =
+    current !== undefined ? current : reduxHighContrast;
 
-  const iconName = ContrastIcons[activeContrast] || disabledContrastIcon;
-  const nextValue = activeContrast === 'd' ? 'h' : 'd';
+  const iconName =
+    HighContrastIcons[activeHighContrast] || disabledHighContrastIcon;
+  const nextValue = activeHighContrast === 'd' ? 'h' : 'd';
 
   const handleClick = (e) => {
     let target = e.target;
@@ -48,21 +50,21 @@ const Contrast = ({ current, onClick, applyBodyClass = true }) => {
     if (typeof onClick === 'function') {
       onClick(val);
     } else {
-      dispatch(setContrast(val));
+      dispatch(setHighContrast(val));
     }
   };
 
   return (
     <>
       {applyBodyClass && (
-        <BodyClass className={`a18n-contrast-${activeContrast}`} />
+        <BodyClass className={`a18n-contrast-${activeHighContrast}`} />
       )}
       <Container className={'option contrast'}>
         <button value={nextValue} onClick={handleClick}>
           <Icon
             name={iconName}
             size={'16px'}
-            title={intl.formatMessage(messages.contrastLink)}
+            title={intl.formatMessage(messages.highContrastButton)}
             className={'icon'}
           />
         </button>
@@ -71,5 +73,5 @@ const Contrast = ({ current, onClick, applyBodyClass = true }) => {
   );
 };
 
-export { Contrast };
-export default Contrast;
+export { HighContrast };
+export default HighContrast;

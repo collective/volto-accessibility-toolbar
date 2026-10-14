@@ -1,9 +1,9 @@
 import { SET_ACCESSIBILITY } from '../../constants/ActionTypes';
 
-export function setAccessibility(contrast, font) {
+export function setAccessibility(high_contrast, font) {
   return {
     type: SET_ACCESSIBILITY,
-    contrast,
+    high_contrast,
     font,
   };
 }
@@ -15,9 +15,9 @@ export function setFont(font) {
   };
 }
 
-export function setContrast(contrast) {
+export function setHighContrast(high_contrast) {
   return {
     type: SET_ACCESSIBILITY,
-    contrast,
+    contrast: high_contrast,
   };
 }

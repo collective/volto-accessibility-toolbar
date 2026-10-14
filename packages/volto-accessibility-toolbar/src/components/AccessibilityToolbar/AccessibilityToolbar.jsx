@@ -9,7 +9,7 @@ import { Container } from '@plone/components';
 import BodyClass from '@plone/volto/helpers/BodyClass/BodyClass';
 import config from '@plone/volto/registry';
 import { setAccessibility } from '../../actions/Accessibility/Accessibility';
-import { Contrast, Fonts, LinkText } from './index';
+import { HighContrast, Fonts, LinkText } from './index';
 
 // AccessibilityToolbar component
 const AccessibilityToolbar = () => {
@@ -21,7 +21,7 @@ const AccessibilityToolbar = () => {
   const dispatch = useDispatch();
 
   // Handle contrast change
-  const handleContrastClick = (value = 'd') => {
+  const handleHighContrastClick = (value = 'd') => {
     dispatch(setAccessibility(value, accessibility.font || 'm'));
   };
 
@@ -39,10 +39,10 @@ const AccessibilityToolbar = () => {
         {settings.enable_link && (
           <LinkText enabled={settings.enable_link} href={settings.link_url} />
         )}
-        {settings.enable_contrast && (
-          <Contrast
+        {settings.enable_high_contrast && (
+          <HighContrast
             current={accessibility.contrast}
-            onClick={handleContrastClick}
+            onClick={handleHighContrastClick}
             applyBodyClass={false}
           />
         )}

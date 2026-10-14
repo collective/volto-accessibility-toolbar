@@ -26,8 +26,8 @@ msgid "accessibility_link_title"
 msgstr "Link zur Barrierefreiheit"
 
 #. Default: "High Contrast"
-#: components/AccessibilityToolbar/AccessibilityToolbar
-msgid "contrast_link"
+#: components/AccessibilityToolbar/HighContrast
+msgid "high_contrast_button"
 msgstr "Hoher Kontrast"
 
 #. Default: "Large Font"

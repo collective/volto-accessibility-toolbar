@@ -13,6 +13,6 @@ export default function install(config: ConfigType) {
   // Enable or disable the font size feature
   config.settings.enable_font = true;
   // Enable or disable the contrast feature
-  config.settings.enable_contrast = true;
+  config.settings.enable_high_contrast = true;
   return config;
 }
