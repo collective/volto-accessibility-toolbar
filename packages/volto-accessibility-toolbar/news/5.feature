@@ -1,0 +1,1 @@
+Add the testing support for this add-on.
