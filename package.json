@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "A new add-on for Volto to support the Accessibility Toolbar",
   "author": "Leonardo J. Caballero G.",
-  "homepage": "https://github.com/macagua/volto-accessibility-toolbar",
+  "homepage": "https://github.com/collective/volto-accessibility-toolbar",
   "license": "MIT",
   "keywords": [
     "volto-addon",

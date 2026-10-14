@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "Leonardo J. Caballero G.",
-  "homepage": "https://github.com/macagua/volto-accessibility-toolbar#readme",
+  "homepage": "https://github.com/collective/volto-accessibility-toolbar#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:macagua/volto-accessibility-toolbar"
+    "url": "git@github.com:collective/volto-accessibility-toolbar"
   },
   "publishConfig": {
     "access": "public"

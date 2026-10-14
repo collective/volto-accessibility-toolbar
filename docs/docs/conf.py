@@ -95,7 +95,7 @@ linkcheck_ignore = [
     # Ignore file downloads
     r"^/_static/",
     # Ignore pages that require authentication
-    r"https://github.com/macagua/accessibilitytoolbar/issues/new",  # requires auth
+    r"https://github.com/collective/volto-accessibility-toolbar/issues/new",  # requires auth
     # Ignore github.com pages with anchors
     r"https://github.com/.*#.*",
     # Ignore other specific anchors
@@ -155,7 +155,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/macagua/accessibilitytoolbar",
+            "url": "https://github.com/collective/volto-accessibility-toolbar",
             "icon": "fa-brands fa-square-github",
             "type": "fontawesome",
             "attributes": {
@@ -182,7 +182,7 @@ html_theme_options = {
     "navigation_with_keys": True,
     "path_to_docs": "docs/docs",
     "repository_branch": "main",
-    "repository_url": "https://github.com/macagua/accessibilitytoolbar",
+    "repository_url": "https://github.com/collective/volto-accessibility-toolbar",
     "search_bar_text": "Search",
     "show_toc_level": 2,
     "use_edit_page_button": True,
@@ -192,7 +192,7 @@ html_theme_options = {
 # suggest edit link
 # remark:  is mandatory in "edit_page_url_template"
 # html_context = {
-#     "edit_page_url_template": "https://github.com/macagua/accessibilitytoolbar/edit/main/docs/",
+#     "edit_page_url_template": "https://github.com/collective/volto-accessibility-toolbar/edit/main/docs/",
 # }
 
 # Announce that we have an opensearch plugin
