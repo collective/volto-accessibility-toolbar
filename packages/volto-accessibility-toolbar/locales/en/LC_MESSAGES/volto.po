@@ -12,12 +12,12 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. Default: "Accessibility"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/LinkText
 msgid "accessibility_link"
 msgstr ""
 
 #. Default: "Accessibility Link"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/LinkText
 msgid "accessibility_link_title"
 msgstr ""
 
@@ -27,16 +27,16 @@ msgid "high_contrast_button"
 msgstr ""
 
 #. Default: "Large Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "large_font_button"
 msgstr ""
 
 #. Default: "Medium Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "medium_font_button"
 msgstr ""
 
 #. Default: "Small Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "small_font_button"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-06T16:01:32.969Z\n"
+"POT-Creation-Date: 2026-10-13T16:00:36.710Z\n"
 "PO-Revision-Date: 2026-09-11 16:03+0200\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language: pt_BR\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 
 #. Default: "Accessibility"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/LinkText
 msgid "accessibility_link"
 msgstr "Acessibilidade"
 
 #. Default: "Accessibility Link"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/LinkText
 msgid "accessibility_link_title"
 msgstr "Link de acessibilidade"
 
@@ -34,16 +34,16 @@ msgid "high_contrast_button"
 msgstr "Alto contraste"
 
 #. Default: "Large Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "large_font_button"
 msgstr "Fonte grande"
 
 #. Default: "Medium Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "medium_font_button"
 msgstr "Fonte média"
 
 #. Default: "Small Font"
-#: components/AccessibilityToolbar/AccessibilityToolbar
+#: components/AccessibilityToolbar/Fonts
 msgid "small_font_button"
 msgstr "Fonte pequena"
